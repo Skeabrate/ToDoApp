@@ -1,0 +1,156 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f1f1;
+  font-family: 'Lato', sans-serif;
+}
+
+.section-center {
+  margin: 100px auto;
+  display: block;
+  text-align: center;
+  max-width: 600px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 20px -15px black;
+          box-shadow: 0 0 20px -15px black;
+}
+
+.alert {
+  margin: 0;
+  height: 22px;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  letter-spacing: 4px;
+  border-radius: 5px;
+  padding: 3.5px;
+}
+
+.alert-danger {
+  background-color: #fceaea;
+  color: #7c1313;
+}
+
+.alert-add {
+  background-color: #e1f8d8;
+  color: #1d4b25;
+}
+
+h3 {
+  font-size: 2.5rem;
+  letter-spacing: 4px;
+  margin: 20px;
+}
+
+.form-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+}
+
+#grocery {
+  border: none;
+  border-radius: 10px 0 0 10px;
+  padding: 5px 10px;
+  margin-right: 0;
+  background-color: #f3f1f1;
+  width: 100%;
+  font-size: 18px;
+}
+
+.submit-btn {
+  background-color: #89cef7;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0 10px 10px 0;
+  letter-spacing: 2px;
+  -webkit-transition: all 0.2s 0s ease-in-out;
+  transition: all 0.2s 0s ease-in-out;
+  font-size: 18px;
+}
+
+.submit-btn:hover {
+  background-color: #44a0d4;
+  color: white;
+}
+
+.grocery-container {
+  visibility: hidden;
+}
+
+.show-container {
+  visibility: visible;
+}
+
+.grocery-item {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: background-color 0.2s 0s ease-in-out;
+  transition: background-color 0.2s 0s ease-in-out;
+  border-radius: 10px;
+  margin: 10px 0px;
+  font-size: 18px;
+}
+
+.grocery-item:hover {
+  background-color: #f3f1f1;
+}
+
+.title {
+  margin: 0;
+}
+
+.edit-btn {
+  color: #1ef128;
+  -webkit-transition: color 0.2s 0s ease-in-out;
+  transition: color 0.2s 0s ease-in-out;
+  margin-right: -5px;
+  border: none;
+  background-color: transparent;
+}
+
+.edit-btn:hover {
+  color: #02aa0a;
+}
+
+.delete-btn {
+  color: #fa5555;
+  -webkit-transition: color 0.2s 0s ease-in-out;
+  transition: color 0.2s 0s ease-in-out;
+  border: none;
+  background-color: transparent;
+  margin-right: 15px;
+  margin-left: -5px;
+}
+
+.delete-btn:hover {
+  color: #ac2e2e;
+}
+
+.clear-btn {
+  color: red;
+  letter-spacing: 4px;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  -webkit-transition: color 0.2s 0s ease-in-out;
+  transition: color 0.2s 0s ease-in-out;
+}
+
+.clear-btn:hover {
+  color: #a80202;
+}
+/*# sourceMappingURL=style.css.map */

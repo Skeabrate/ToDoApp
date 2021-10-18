@@ -1,0 +1,126 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+$lightgrey: rgb(243, 241, 241);
+
+body{
+    background-color: $lightgrey;
+    font-family: 'Lato', sans-serif;
+}
+.section-center{
+    margin: 100px auto;
+    display: block;
+    text-align: center;
+    max-width: 600px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px -15px black;
+}
+
+.alert{
+    margin: 0;
+    height: 22px;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    border-radius: 5px;
+    padding: 3.5px;
+}
+.alert-danger{  
+    background-color: rgb(252, 234, 234);
+    color: rgb(124, 19, 19);
+}
+.alert-add{
+    background-color: rgb(225, 248, 216);
+    color: rgb(29, 75, 37);
+}
+
+h3{
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+    margin: 20px;
+}
+.form-control{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+#grocery{
+    border: none;
+    border-radius: 10px 0 0 10px;
+    padding: 5px 10px;
+    margin-right: 0;
+    background-color: $lightgrey;
+    width: 100%;
+    font-size: 18px;
+}
+.submit-btn{
+    background-color: rgb(137, 206, 247);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 10px 10px 0;
+    letter-spacing: 2px;
+    transition: all 0.2s 0s ease-in-out;
+    font-size: 18px;
+}
+.submit-btn:hover{
+    background-color: rgb(68, 160, 212);
+    color: white;
+}
+
+.grocery-container{
+    visibility: hidden;
+}
+.show-container{
+    visibility: visible;
+}
+.grocery-item{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    transition: background-color 0.2s 0s ease-in-out;
+    border-radius: 10px;
+    margin: 10px 0px;
+    font-size: 18px;
+}
+.grocery-item:hover{
+    background-color: $lightgrey;
+}
+.title{
+    margin: 0;
+}
+.edit-btn{
+    color: rgb(30, 241, 40);
+    transition: color 0.2s 0s ease-in-out;
+    margin-right: -5px;
+    border: none;
+    background-color: transparent;
+}
+.edit-btn:hover{
+    color: rgb(2, 170, 10);
+}
+
+.delete-btn{
+    color: rgb(250, 85, 85);
+    transition: color 0.2s 0s ease-in-out;
+    border: none;
+    background-color: transparent;
+    margin-right: 15px;
+    margin-left: -5px;
+}
+.delete-btn:hover{
+    color: rgb(172, 46, 46);
+}
+
+.clear-btn{
+    color: red;
+    letter-spacing: 4px;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    transition: color 0.2s 0s ease-in-out;
+}
+.clear-btn:hover{
+    color: rgb(168, 2, 2);
+}
